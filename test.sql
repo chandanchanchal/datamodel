@@ -90,6 +90,42 @@ Solution:
 Create a separate Students table for student information.
 Create a Student_Courses_2NF table for course enrollment details.
 
+######--Solution-----##########################################
+Converting the table to 1NF
+To bring the table into 1NF, we separate each course into a new row:
+CREATE TABLE Students_1NF (
+    StudentID INT,
+    StudentName VARCHAR(50),
+    Course VARCHAR(50),
+    Marks INT,
+    PRIMARY KEY (StudentID, Course)
+);
+
+1NF Table:
+StudentID	StudentName	Course	Marks
+1	        Alice	    Math	85
+1	        Alice	    Science	90
+2	        Bob	        Math	78
+3	        Charlie	    Science	92
+3	        Charlie	    Art	88
+
+#Solution:
+Separate Students and StudentCourses into different tables.
+CREATE TABLE Students_2NF (
+    StudentID INT PRIMARY KEY,
+    StudentName VARCHAR(50)
+);
+
+CREATE TABLE StudentCourses_2NF (
+    StudentID INT,
+    Course VARCHAR(50),
+    Marks INT,
+    PRIMARY KEY (StudentID, Course),
+    FOREIGN KEY (StudentID) REFERENCES Students_2NF(StudentID)
+);
+
+
+
 -----------------------------------Exercise-------------------------For 1NF-to-2NF-----Ends-------------
 
 
