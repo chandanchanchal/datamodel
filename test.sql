@@ -151,6 +151,28 @@ Problem:
 Teacher depends on Course, not on StudentID.
 This creates a transitive dependency, violating 3NF.
 
+3. Solution: Breaking Transitive Dependency
+Separate courses and teachers into a new table (Courses table).
+CREATE TABLE Students_3NF (
+    StudentID INT PRIMARY KEY,
+    StudentName VARCHAR(50)
+);
+
+CREATE TABLE Courses_3NF (
+    Course VARCHAR(50) PRIMARY KEY,
+    Teacher VARCHAR(50)
+);
+
+CREATE TABLE StudentCourses_3NF (
+    StudentID INT,
+    Course VARCHAR(50),
+    Marks INT,
+    PRIMARY KEY (StudentID, Course),
+    FOREIGN KEY (StudentID) REFERENCES Students_3NF(StudentID),
+    FOREIGN KEY (Course) REFERENCES Courses_3NF(Course)
+);
+
+
 
 
 -----------------------------------Exercise-------------------------For 1NF-to-2NF-----Ends-------------
