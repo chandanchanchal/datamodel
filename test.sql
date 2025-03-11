@@ -124,6 +124,33 @@ CREATE TABLE StudentCourses_2NF (
     FOREIGN KEY (StudentID) REFERENCES Students_2NF(StudentID)
 );
 
+1. Understanding 2NF Issues
+From our 2NF tables:
+
+Students_2NF Table:
+StudentID	StudentName
+1	        Alice
+2	        Bob
+3	        Charlie
+StudentCourses_2NF Table:
+StudentID	Course	Marks
+1	        Math	85
+1	        Science	90
+2	        Math	78
+3	        Science	92
+3	        Art	88
+Issues in 2NF Table:
+Suppose we introduce a Teacher column in the StudentCourses_2NF table:
+StudentID	Course	Marks	Teacher
+1	        Math	    85	Mr. Smith
+1	        Science	    90	Mrs. Davis
+2	        Math	    78	Mr. Smith
+3	        Science	    92	Mrs. Davis
+3	        Art        	88	Mr. Lee
+Problem:
+Teacher depends on Course, not on StudentID.
+This creates a transitive dependency, violating 3NF.
+
 
 
 -----------------------------------Exercise-------------------------For 1NF-to-2NF-----Ends-------------
