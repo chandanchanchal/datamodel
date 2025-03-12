@@ -460,6 +460,41 @@ Create a new database
 CREATE DATABASE TravelDWH;
 USE TravelDWH;
 
+Step 3: Create the Dimension Tables
+1. Dim_Traveler
+CREATE TABLE Dim_Traveler (
+    traveler_id INT PRIMARY KEY AUTO_INCREMENT,
+    full_name VARCHAR(100),
+    email VARCHAR(100) UNIQUE,
+    phone VARCHAR(20)
+);
+2. Dim_Destination
+CREATE TABLE Dim_Destination (
+    destination_id INT PRIMARY KEY AUTO_INCREMENT,
+    destination_name VARCHAR(100),
+    country VARCHAR(50),
+    city VARCHAR(50)
+);
+
+3. Dim_Payment
+CREATE TABLE Dim_Payment (
+    payment_id INT PRIMARY KEY AUTO_INCREMENT,
+    payment_method ENUM('Credit Card', 'PayPal', 'Bank Transfer'),
+    payment_status ENUM('Completed', 'Pending', 'Failed')
+);
+
+4. Dim_Date
+CREATE TABLE Dim_Date (
+    date_id INT PRIMARY KEY AUTO_INCREMENT,
+    full_date DATE,
+    year INT,
+    month INT,
+    day INT
+);
+
+
+
+
 
 
 -----------------------------------------DWH---------------------------------------Ends----------------------
