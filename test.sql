@@ -190,6 +190,17 @@ Transportation: Modes of transport (Flight, Train, Bus, etc.).
 Accommodation: Hotels or places travelers stay.
 Review: Ratings & feedback by travelers.
 
+
+Step 2: Logical Model (Detailed Attributes & Relationships)
+Now, we define attributes and relationships.
+
+ER Diagram for Travel Domain
+One traveler can have many bookings.
+One trip can cover multiple destinations.
+One booking can have one or more payments.
+One booking involves one transportation mode and may have one accommodation.
+One traveler can give multiple reviews for different bookings.
+
 -----------------------------------Data Modeling Exercise: Travel Domain-----Ends-------------
 
 
