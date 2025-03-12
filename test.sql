@@ -222,6 +222,74 @@ CREATE TABLE Trip (
     end_date DATE,
     FOREIGN KEY (traveler_id) REFERENCES Traveler(traveler_id)
 );
+3. Destination (Stores travel locations)
+CREATE TABLE Destination (
+    destination_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    country VARCHAR(50),
+    description TEXT
+);
+
+4. Trip_Destination (Many-to-Many Relationship Between Trip & Destination)
+CREATE TABLE Trip_Destination (
+    trip_id INT,
+    destination_id INT,
+    PRIMARY KEY (trip_id, destination_id),
+    FOREIGN KEY (trip_id) REFERENCES Trip(trip_id),
+    FOREIGN KEY (destination_id) REFERENCES Destination(destination_id)
+);
+
+5. Booking (Links Travelers, Trips, and Accommodations)
+CREATE TABLE Booking (
+    booking_id INT PRIMARY KEY AUTO_INCREMENT,
+    traveler_id INT,
+    trip_id INT,
+    booking_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    total_amount DECIMAL(10,2),
+    FOREIGN KEY (traveler_id) REFERENCES Traveler(traveler_id),
+    FOREIGN KEY (trip_id) REFERENCES Trip(trip_id)
+);
+
+6. Payment (Stores payment details for bookings)
+CREATE TABLE Payment (
+    payment_id INT PRIMARY KEY AUTO_INCREMENT,
+    booking_id INT,
+    payment_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    amount DECIMAL(10,2),
+    payment_method ENUM('Credit Card', 'Debit Card', 'PayPal', 'Bank Transfer'),
+    status ENUM('Pending', 'Completed', 'Failed'),
+    FOREIGN KEY (booking_id) REFERENCES Booking(booking_id)
+);
+
+7. Transportation (Types of travel modes)
+CREATE TABLE Transportation (
+    transport_id INT PRIMARY KEY AUTO_INCREMENT,
+    transport_type ENUM('Flight', 'Train', 'Bus', 'Car Rental'),
+    provider VARCHAR(100),
+    details TEXT
+);
+
+8. Accommodation (Hotels, stays linked to bookings)
+CREATE TABLE Accommodation (
+    accommodation_id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100),
+    location VARCHAR(100),
+    room_type VARCHAR(50),
+    price_per_night DECIMAL(10,2)
+);
+
+9. Review (Traveler feedback on bookings)
+CREATE TABLE Review (
+    review_id INT PRIMARY KEY AUTO_INCREMENT,
+    traveler_id INT,
+    booking_id INT,
+    rating INT CHECK (rating BETWEEN 1 AND 5),
+    comment TEXT,
+    review_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (traveler_id) REFERENCES Traveler(traveler_id),
+    FOREIGN KEY (booking_id) REFERENCES Booking(booking_id)
+);
+
 
 
 -----------------------------------Data Modeling Exercise: Travel Domain-----Ends-------------
