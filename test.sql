@@ -350,6 +350,9 @@ Traveler → Review (1:N)
 
 A traveler can give multiple reviews for different bookings.
 
+CREATE INDEX idx_traveler_phone ON Traveler(phone);
+
+
 
 
 -----------------------------------Data Modeling Exercise: Travel Domain-----Ends-------------
