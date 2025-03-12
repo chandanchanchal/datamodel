@@ -383,4 +383,37 @@ db.destinations.insertMany([
   }
 ]);
 
+###########################################################################################
+4. Query Data for Meaningful Insights
+
+4.1 Fetch all destinations:
+
+db.destinations.find().pretty()
+
+4.2 Find destinations in a specific country:
+
+db.destinations.find({ "country": "France" }).pretty()
+
+4.3 Find destinations with a rating above 4.7:
+
+db.destinations.find({ "rating": { $gt: 4.7 } }).pretty()
+
+4.4 Find destinations that include a specific attraction:
+
+db.destinations.find({ "attractions": "Eiffel Tower" }).pretty()
+
+4.5 Sort destinations by rating in descending order:
+
+db.destinations.find().sort({ "rating": -1 }).pretty()
+
+4.6 Calculate the average cost of travel to all destinations:
+db.destinations.aggregate([
+  {
+    $group: {
+      _id: null,
+      avgCost: { $avg: "$average_cost" }
+    }
+  }
+]);
+
 
