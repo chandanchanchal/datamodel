@@ -492,6 +492,40 @@ CREATE TABLE Dim_Date (
     day INT
 );
 
+Step 4: Create the Fact Table (Fact_Booking)
+CREATE TABLE Fact_Booking (
+    booking_id INT PRIMARY KEY AUTO_INCREMENT,
+    traveler_id INT,
+    destination_id INT,
+    payment_id INT,
+    date_id INT,
+    total_amount DECIMAL(10,2),
+    booking_count INT,
+    FOREIGN KEY (traveler_id) REFERENCES Dim_Traveler(traveler_id),
+    FOREIGN KEY (destination_id) REFERENCES Dim_Destination(destination_id),
+    FOREIGN KEY (payment_id) REFERENCES Dim_Payment(payment_id),
+    FOREIGN KEY (date_id) REFERENCES Dim_Date(date_id)
+);
+
+Section 5: Snowflake Schema Optimization
+ Step 5: Normalize Dim_Destination for Snowflake Schema
+
+1. Create a Dim_Country Table
+CREATE TABLE Dim_Country (
+    country_id INT PRIMARY KEY AUTO_INCREMENT,
+    country_name VARCHAR(50)
+);
+
+2. Modify Dim_Destination
+CREATE TABLE Dim_Destination (
+    destination_id INT PRIMARY KEY AUTO_INCREMENT,
+    destination_name VARCHAR(100),
+    country_id INT,
+    FOREIGN KEY (country_id) REFERENCES Dim_Country(country_id)
+);
+
+
+
 
 
 
