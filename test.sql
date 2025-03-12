@@ -548,6 +548,19 @@ FROM Fact_Booking f
 JOIN Dim_Destination d ON f.destination_id = d.destination_id
 GROUP BY d.destination_name;
 
+2. Most Popular Travel Destinations
+SELECT d.destination_name, COUNT(f.booking_id) AS total_bookings
+FROM Fact_Booking f
+JOIN Dim_Destination d ON f.destination_id = d.destination_id
+GROUP BY d.destination_name
+ORDER BY total_bookings DESC
+LIMIT 5;
+
+3. Total Bookings by Month
+SELECT dt.year, dt.month, COUNT(f.booking_id) AS total_bookings
+FROM Fact_Booking f
+JOIN Dim_Date dt ON f.date_id = dt.date_id
+GROUP BY dt.year, dt.month;
 
 
 
