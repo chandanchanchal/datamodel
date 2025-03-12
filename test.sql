@@ -201,6 +201,29 @@ One booking can have one or more payments.
 One booking involves one transportation mode and may have one accommodation.
 One traveler can give multiple reviews for different bookings.
 
+Step 3: Physical Model (Table Structure for MySQL)
+Tables & Schema Design
+1. Traveler (Stores traveler details)
+CREATE TABLE Traveler (
+    traveler_id INT PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    email VARCHAR(100) UNIQUE,
+    phone VARCHAR(15),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+2. Trip (Records trips with start and end dates)
+CREATE TABLE Trip (
+    trip_id INT PRIMARY KEY AUTO_INCREMENT,
+    traveler_id INT,
+    trip_name VARCHAR(100),
+    start_date DATE,
+    end_date DATE,
+    FOREIGN KEY (traveler_id) REFERENCES Traveler(traveler_id)
+);
+
+
 -----------------------------------Data Modeling Exercise: Travel Domain-----Ends-------------
 
 
