@@ -329,6 +329,27 @@ FROM Booking b
 JOIN Traveler t ON b.traveler_id = t.traveler_id
 JOIN Trip tr ON b.trip_id = tr.trip_id;
 
+Step 3: ER Diagram Explanation
+Traveler → Trip (1:N)
+A traveler can take multiple trips.
+Trip → Trip_Destination (1:N)
+A trip can include multiple destinations.
+Destination → Trip_Destination (1:N)
+A destination can be part of multiple trips.
+Traveler → Booking (1:N)
+A traveler can make multiple bookings.
+Booking → Payment (1:N)
+A booking can have multiple payments.
+Booking → Transportation (1:1)
+
+A booking is linked to one transportation mode.
+Booking → Accommodation (1:1)
+
+A booking may include accommodation.
+Traveler → Review (1:N)
+
+A traveler can give multiple reviews for different bookings.
+
 
 
 -----------------------------------Data Modeling Exercise: Travel Domain-----Ends-------------
