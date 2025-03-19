@@ -74,4 +74,21 @@ All columns contain atomic (indivisible) values.
 There are no repeating groups or arrays.
 
 ######--Solution-----##########################################
+Converting the table to 1NF
+To bring the table into 1NF, we separate each course into a new row:
+CREATE TABLE Students_1NF (
+    StudentID INT,
+    StudentName VARCHAR(50),
+    Course VARCHAR(50),
+    Marks INT,
+    PRIMARY KEY (StudentID, Course)
+);
+
+1NF Table:
+StudentID	StudentName	Course	Marks
+1	        Alice	    Math	85
+1	        Alice	    Science	90
+2	        Bob	        Math	78
+3	        Charlie	    Science	92
+3	        Charlie	    Art	88
 
