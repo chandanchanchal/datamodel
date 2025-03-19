@@ -97,4 +97,21 @@ All non-key columns entirely depend on the primary key (No partial dependencies)
 
 #Solution:
 Separate Students and StudentCourses into different tables.
+#Definition of 2NF: A table is in 2NF if:
+It is in 1NF.
+All non-key columns are fully dependent on the whole primary key (No partial dependencies).
 
+#Solution:
+Separate Students and StudentCourses into different tables.
+CREATE TABLE Students_2NF (
+    StudentID INT PRIMARY KEY,
+    StudentName VARCHAR(50)
+);
+
+CREATE TABLE StudentCourses_2NF (
+    StudentID INT,
+    Course VARCHAR(50),
+    Marks INT,
+    PRIMARY KEY (StudentID, Course),
+    FOREIGN KEY (StudentID) REFERENCES Students_2NF(StudentID)
+);
