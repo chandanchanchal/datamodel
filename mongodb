@@ -1,3 +1,4 @@
+mongodb+srv://test:6k5j9oTR9JcuhfAw@cluster0.oe8la.mongodb.net/
 wget https://downloads.mongodb.com/compass/mongodb-compass_1.45.4_amd64.deb
 sudo apt install ./mongodb-compass_1.45.4_amd64.deb
 
