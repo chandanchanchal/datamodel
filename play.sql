@@ -212,3 +212,10 @@ JOIN Students s ON e.StudentID = s.StudentID
 JOIN Programs p ON e.ProgramID = p.ProgramID;
 
 -----------------------------------join--query-------------------------ends-------------
+
+-----------------------------------Data Modeling Exercise: Travel Domain-----Starts-------------
+Step 1: Conceptual Model (High-Level Design)
+Entities & Relationships
+In the travel domain, key entities and their relationships can be defined as follows:
+
+Traveler: A person booking trips.
