@@ -49,3 +49,29 @@ VALUES (5, 'Eve Adams', 'eve@example.com', 101, 65000, '2024-05-10');
 SELECT * FROM Employees;
 SELECT * FROM Departments;
 
+-----------------------------------Exercise-------------------------For 1NF-to-2NF-----Starts-------------
+Exercise: Normalize the Student_Courses Table to 1NF and 2NF
+Given Unnormalized Table (UNF)
+#A university stores student enrollment details in the following table:
+
+Student_Courses
++-----------+---------+----------------------+------------+
+| StudentID | Name    | Courses              | Instructors|
++-----------+---------+----------------------+------------+
+| 201       | Alice   | Math, Physics        | Dr. A, Dr. B|
+| 202       | Bob     | Chemistry            | Dr. C      |
+| 203       | Charlie | Math, Biology        | Dr. A, Dr. D|
++-----------+---------+----------------------+------------+
+Issues:
+The Courses column contains multiple values (not atomic).
+The Instructors column also contains multiple values.
+It violates the First Normal Form (1NF) rule.
+
+Step 1: Convert to First Normal Form (1NF)
+Definition of 1NF: A table is in 1NF if:
+It has a primary key.
+All columns contain atomic (indivisible) values.
+There are no repeating groups or arrays.
+
+######--Solution-----##########################################
+
