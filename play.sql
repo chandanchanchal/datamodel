@@ -115,3 +115,32 @@ CREATE TABLE StudentCourses_2NF (
     PRIMARY KEY (StudentID, Course),
     FOREIGN KEY (StudentID) REFERENCES Students_2NF(StudentID)
 );
+
+Observing the Issue:
+In StudentCourses_2NF, the Marks attribute likely depends on both StudentID and Course, but if Course has additional attributes (such as Instructor, Credits), they should be separated.
+Course should be an independent entity to avoid redundant data.
+Solution:
+We separate courses into their own table and use CourseID instead of Course in StudentCourses_2NF.
+
+-- Students Table remains the same
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    StudentName VARCHAR(50)
+);
+
+-- New Course Table to store unique courses
+CREATE TABLE Courses (
+    CourseID INT PRIMARY KEY,
+    CourseName VARCHAR(50)
+);
+
+-- StudentCourses table using CourseID instead of Course Name
+CREATE TABLE StudentCourses (
+    StudentID INT,
+    CourseID INT,
+    Marks INT,
+    PRIMARY KEY (StudentID, CourseID),
+    FOREIGN KEY (StudentID) REFERENCES Students(StudentID),
+    FOREIGN KEY (CourseID) REFERENCES Courses(CourseID)
+);
+
