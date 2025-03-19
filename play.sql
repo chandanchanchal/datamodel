@@ -145,6 +145,8 @@ CREATE TABLE StudentCourses (
 );
 
 Normalization Need.
-Eliminated transitive dependency: Marks now depends on StudentID and CourseID, not on a non-key attribute (CourseName).
+Eliminated transitive dependency: Marks now depends on StudentID and CourseID,
+    not on a non-key attribute (CourseName).
 Avoids redundancy: Course details are stored separately, making updates efficient.
-Meets 3NF: Every non-key attribute is now functionally dependent on the whole primary key and not on another non-key attribute.
+Meets 3NF: Every non-key attribute is now functionally dependent on the whole primary key and not on
+    another non-key attribute.
