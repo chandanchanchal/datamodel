@@ -5,6 +5,7 @@ FLUSH PRIVILEGES;
 
 
 sudo systemctl restart MySQL
+    ---------------------------------------------------------------------------------
 Step 1: Create a Database
 CREATE DATABASE IF NOT EXISTS testdb;
 USE testdb;
