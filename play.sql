@@ -91,4 +91,10 @@ StudentID	StudentName	Course	Marks
 2	        Bob	        Math	78
 3	        Charlie	    Science	92
 3	        Charlie	    Art	88
+#Definition of 2NF: A table is in 2NF if:
+It is in 1NF.
+All non-key columns entirely depend on the primary key (No partial dependencies).
+
+#Solution:
+Separate Students and StudentCourses into different tables.
 
