@@ -122,8 +122,7 @@ VALUES ('2025-06-15', 2025, 6, 15);
 
 INSERT INTO Fact_Booking (traveler_id, destination_id, payment_id, date_id, total_amount, booking_count)
 VALUES (1, 1, 1, 1, 1200.00, 1);
-Total Revenue by Destination
-Section 7: Querying the Data Warehouse
+
 1. Total Revenue by Destination
 2. Most Popular Travel Destinations
 3. Total Bookings by Month
