@@ -49,3 +49,52 @@ db.destinations.find({
   "rating": { $gt: 4.7 },
   "average_cost": { $lte: 1800 }
 }).pretty();
+##################################################################################################################
+
+use travelDB
+1.2 Create a Collection and Insert 100 Documents
+Here, we create a bookings collection with nested JSON data representing a travel booking system.
+db.bookings.insertMany([
+  {
+    "booking_id": 1,
+    "customer": {
+      "name": "John Doe",
+      "email": "john.doe@example.com"
+    },
+    "trip_details": {
+      "destination": "Paris",
+      "departure_date": "2025-06-15",
+      "return_date": "2025-06-25",
+      "accommodation": {
+        "hotel_name": "Grand Paris Hotel",
+        "rating": 4.5
+      }
+    },
+    "payment": {
+      "status": "Completed",
+      "amount": 1500.00
+    }
+  },
+  {
+    "booking_id": 2,
+    "customer": {
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com"
+    },
+    "trip_details": {
+      "destination": "New York",
+      "departure_date": "2025-07-10",
+      "return_date": "2025-07-20",
+      "accommodation": {
+        "hotel_name": "Manhattan Suites",
+        "rating": 4.2
+      }
+    },
+    "payment": {
+      "status": "Pending",
+      "amount": 1800.00
+    }
+  }
+  
+])
+
