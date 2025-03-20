@@ -100,5 +100,7 @@ db.bookings.insertMany([
 
 ######################################################################################
 db.bookings.find({}, { "customer.name": 1, "customer.email": 1, _id: 0 })
+db.bookings.find({}, { "customer.name": 0, "_id": 0 })
+
 
 
