@@ -1,0 +1,21 @@
+Query Orders for a Specific Customer (C001)
+  aws dynamodb scan \
+    --table-name CustomerOrders \
+    --filter-expression "CustomerID = :customer" \
+    --expression-attribute-values '{":customer":{"S":"C001"}}'
+
+
+  Query Specific Order (O003, C001)
+  aws dynamodb get-item \
+    --table-name CustomerOrders \
+    --key '{
+        "OrderID": {"S": "O003"},
+        "CustomerID": {"S": "C001"}
+    }'
+
+
+  Scan All Orders Above a Certain Price (>500)
+    aws dynamodb scan \
+    --table-name CustomerOrders \
+    --filter-expression "Price > :price" \
+    --expression-attribute-values '{":price":{"N":"500"}}'
