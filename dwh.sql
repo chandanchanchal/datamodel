@@ -107,6 +107,9 @@ CREATE TABLE Dim_Destination (
 
 INSERT INTO Dim_Traveler (full_name, email, phone)
 VALUES ('Alice Johnson', 'alice@example.com', '1234567890');
+ALTER TABLE Dim_Destination  
+ADD COLUMN country VARCHAR(100),  
+ADD COLUMN city VARCHAR(100);
 
 INSERT INTO Dim_Destination (destination_name, country, city)
 VALUES ('Paris', 'France', 'Paris');
