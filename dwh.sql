@@ -26,3 +26,9 @@ Section 3: Designing the Data Warehouse Schema
  Step 1: Identify Fact & Dimension Tables
 Fact Table	                    Measures	                        Granularity (1 row per...)
 Fact_Booking	                Total amount, booking count	        Booking ID
+
+Dimension Tables	            Attributes
+Dim_Traveler	                Traveler Name, Email, Phone
+Dim_Destination	                Destination Name, Country, City
+Dim_Payment                    	Payment Method, Payment Status
+Dim_Date	                    Date, Year, Month, Day
