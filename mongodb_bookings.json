@@ -1,0 +1,1962 @@
+[
+    {
+        "booking_id": 3,
+        "customer": {
+            "name": "Alice Martinez",
+            "email": "customer3@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-12-07",
+            "return_date": "2025-12-09",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 3.7
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 2215.77
+        }
+    },
+    {
+        "booking_id": 4,
+        "customer": {
+            "name": "Alice Brown",
+            "email": "customer4@example.com"
+        },
+        "trip_details": {
+            "destination": "Sydney",
+            "departure_date": "2025-02-07",
+            "return_date": "2025-02-10",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 3.6
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 4502.37
+        }
+    },
+    {
+        "booking_id": 5,
+        "customer": {
+            "name": "James Brown",
+            "email": "customer5@example.com"
+        },
+        "trip_details": {
+            "destination": "London",
+            "departure_date": "2025-12-01",
+            "return_date": "2025-12-10",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 4.9
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 2663.28
+        }
+    },
+    {
+        "booking_id": 6,
+        "customer": {
+            "name": "Emma Williams",
+            "email": "customer6@example.com"
+        },
+        "trip_details": {
+            "destination": "Bangkok",
+            "departure_date": "2025-02-20",
+            "return_date": "2025-02-22",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.5
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 1641.94
+        }
+    },
+    {
+        "booking_id": 7,
+        "customer": {
+            "name": "Emma Miller",
+            "email": "customer7@example.com"
+        },
+        "trip_details": {
+            "destination": "New York",
+            "departure_date": "2025-12-08",
+            "return_date": "2025-12-10",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 4.9
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 2017.68
+        }
+    },
+    {
+        "booking_id": 8,
+        "customer": {
+            "name": "Emma Smith",
+            "email": "customer8@example.com"
+        },
+        "trip_details": {
+            "destination": "Sydney",
+            "departure_date": "2025-12-21",
+            "return_date": "2025-12-27",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 3.1
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 1226.7
+        }
+    },
+    {
+        "booking_id": 9,
+        "customer": {
+            "name": "David Garcia",
+            "email": "customer9@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-08-23",
+            "return_date": "2025-08-28",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.3
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 4031.2
+        }
+    },
+    {
+        "booking_id": 10,
+        "customer": {
+            "name": "Isabella Davis",
+            "email": "customer10@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-01-08",
+            "return_date": "2025-01-10",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 4.9
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 2362.82
+        }
+    },
+    {
+        "booking_id": 11,
+        "customer": {
+            "name": "Alice Smith",
+            "email": "customer11@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-10-16",
+            "return_date": "2025-10-20",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 4.7
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 3333.7
+        }
+    },
+    {
+        "booking_id": 12,
+        "customer": {
+            "name": "James Davis",
+            "email": "customer12@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-01-12",
+            "return_date": "2025-01-17",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 4.9
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 4993.11
+        }
+    },
+    {
+        "booking_id": 13,
+        "customer": {
+            "name": "Olivia Smith",
+            "email": "customer13@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-01-02",
+            "return_date": "2025-01-08",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 4.2
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 1521.88
+        }
+    },
+    {
+        "booking_id": 14,
+        "customer": {
+            "name": "Emma Miller",
+            "email": "customer14@example.com"
+        },
+        "trip_details": {
+            "destination": "Sydney",
+            "departure_date": "2025-11-07",
+            "return_date": "2025-11-15",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 3.7
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 4026.48
+        }
+    },
+    {
+        "booking_id": 15,
+        "customer": {
+            "name": "Emma Doe",
+            "email": "customer15@example.com"
+        },
+        "trip_details": {
+            "destination": "Berlin",
+            "departure_date": "2025-07-07",
+            "return_date": "2025-07-09",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 3.0
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 2327.91
+        }
+    },
+    {
+        "booking_id": 16,
+        "customer": {
+            "name": "James Jones",
+            "email": "customer16@example.com"
+        },
+        "trip_details": {
+            "destination": "Bangkok",
+            "departure_date": "2025-03-21",
+            "return_date": "2025-03-22",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 4.1
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 3583.17
+        }
+    },
+    {
+        "booking_id": 17,
+        "customer": {
+            "name": "John Garcia",
+            "email": "customer17@example.com"
+        },
+        "trip_details": {
+            "destination": "Sydney",
+            "departure_date": "2025-02-26",
+            "return_date": "2025-02-28",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 3.2
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 4414.24
+        }
+    },
+    {
+        "booking_id": 18,
+        "customer": {
+            "name": "Robert Doe",
+            "email": "customer18@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-11-24",
+            "return_date": "2025-11-34",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.6
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 1836.25
+        }
+    },
+    {
+        "booking_id": 19,
+        "customer": {
+            "name": "Alice Miller",
+            "email": "customer19@example.com"
+        },
+        "trip_details": {
+            "destination": "Dubai",
+            "departure_date": "2025-06-03",
+            "return_date": "2025-06-09",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.0
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 1781.87
+        }
+    },
+    {
+        "booking_id": 20,
+        "customer": {
+            "name": "James Williams",
+            "email": "customer20@example.com"
+        },
+        "trip_details": {
+            "destination": "Sydney",
+            "departure_date": "2025-09-25",
+            "return_date": "2025-09-28",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 5.0
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 1944.55
+        }
+    },
+    {
+        "booking_id": 21,
+        "customer": {
+            "name": "David Johnson",
+            "email": "customer21@example.com"
+        },
+        "trip_details": {
+            "destination": "Dubai",
+            "departure_date": "2025-06-05",
+            "return_date": "2025-06-06",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 3.6
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 3003.61
+        }
+    },
+    {
+        "booking_id": 22,
+        "customer": {
+            "name": "James Brown",
+            "email": "customer22@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-09-16",
+            "return_date": "2025-09-26",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 3.2
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 625.57
+        }
+    },
+    {
+        "booking_id": 23,
+        "customer": {
+            "name": "John Johnson",
+            "email": "customer23@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-10-28",
+            "return_date": "2025-10-28",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 3.2
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 4180.26
+        }
+    },
+    {
+        "booking_id": 24,
+        "customer": {
+            "name": "Robert Garcia",
+            "email": "customer24@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-08-23",
+            "return_date": "2025-08-32",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 4.0
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 1182.89
+        }
+    },
+    {
+        "booking_id": 25,
+        "customer": {
+            "name": "Isabella Smith",
+            "email": "customer25@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-04-22",
+            "return_date": "2025-04-27",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 4.0
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 3281.66
+        }
+    },
+    {
+        "booking_id": 26,
+        "customer": {
+            "name": "Michael Martinez",
+            "email": "customer26@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-07-18",
+            "return_date": "2025-07-20",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 4.6
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 2172.62
+        }
+    },
+    {
+        "booking_id": 27,
+        "customer": {
+            "name": "Robert Jones",
+            "email": "customer27@example.com"
+        },
+        "trip_details": {
+            "destination": "New York",
+            "departure_date": "2025-01-11",
+            "return_date": "2025-01-14",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.2
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 1298.21
+        }
+    },
+    {
+        "booking_id": 28,
+        "customer": {
+            "name": "Robert Williams",
+            "email": "customer28@example.com"
+        },
+        "trip_details": {
+            "destination": "Bangkok",
+            "departure_date": "2025-05-24",
+            "return_date": "2025-05-28",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 3.8
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 1693.65
+        }
+    },
+    {
+        "booking_id": 29,
+        "customer": {
+            "name": "John Miller",
+            "email": "customer29@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-03-05",
+            "return_date": "2025-03-07",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 4.1
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 600.87
+        }
+    },
+    {
+        "booking_id": 30,
+        "customer": {
+            "name": "Robert Martinez",
+            "email": "customer30@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-08-04",
+            "return_date": "2025-08-13",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 4.8
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 1867.59
+        }
+    },
+    {
+        "booking_id": 31,
+        "customer": {
+            "name": "Michael Martinez",
+            "email": "customer31@example.com"
+        },
+        "trip_details": {
+            "destination": "Bangkok",
+            "departure_date": "2025-01-09",
+            "return_date": "2025-01-18",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.9
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 3422.88
+        }
+    },
+    {
+        "booking_id": 32,
+        "customer": {
+            "name": "Alice Williams",
+            "email": "customer32@example.com"
+        },
+        "trip_details": {
+            "destination": "Bangkok",
+            "departure_date": "2025-03-07",
+            "return_date": "2025-03-10",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.6
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 4468.37
+        }
+    },
+    {
+        "booking_id": 33,
+        "customer": {
+            "name": "Robert Jones",
+            "email": "customer33@example.com"
+        },
+        "trip_details": {
+            "destination": "London",
+            "departure_date": "2025-12-20",
+            "return_date": "2025-12-24",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.3
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 2005.66
+        }
+    },
+    {
+        "booking_id": 34,
+        "customer": {
+            "name": "John Davis",
+            "email": "customer34@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-05-25",
+            "return_date": "2025-05-28",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 4.6
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 3701.94
+        }
+    },
+    {
+        "booking_id": 35,
+        "customer": {
+            "name": "Alice Doe",
+            "email": "customer35@example.com"
+        },
+        "trip_details": {
+            "destination": "New York",
+            "departure_date": "2025-01-02",
+            "return_date": "2025-01-11",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.8
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 2441.2
+        }
+    },
+    {
+        "booking_id": 36,
+        "customer": {
+            "name": "Michael Martinez",
+            "email": "customer36@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-05-20",
+            "return_date": "2025-05-22",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.4
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 2899.58
+        }
+    },
+    {
+        "booking_id": 37,
+        "customer": {
+            "name": "Robert Martinez",
+            "email": "customer37@example.com"
+        },
+        "trip_details": {
+            "destination": "Bangkok",
+            "departure_date": "2025-08-06",
+            "return_date": "2025-08-13",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 3.5
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 1101.17
+        }
+    },
+    {
+        "booking_id": 38,
+        "customer": {
+            "name": "Robert Brown",
+            "email": "customer38@example.com"
+        },
+        "trip_details": {
+            "destination": "Dubai",
+            "departure_date": "2025-12-25",
+            "return_date": "2025-12-28",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 4.2
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 1917.17
+        }
+    },
+    {
+        "booking_id": 39,
+        "customer": {
+            "name": "Michael Miller",
+            "email": "customer39@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-12-03",
+            "return_date": "2025-12-07",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 3.9
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 3838.32
+        }
+    },
+    {
+        "booking_id": 40,
+        "customer": {
+            "name": "Sophia Smith",
+            "email": "customer40@example.com"
+        },
+        "trip_details": {
+            "destination": "Berlin",
+            "departure_date": "2025-01-15",
+            "return_date": "2025-01-22",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 3.3
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 3528.43
+        }
+    },
+    {
+        "booking_id": 41,
+        "customer": {
+            "name": "Isabella Jones",
+            "email": "customer41@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-06-18",
+            "return_date": "2025-06-28",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.6
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 1219.86
+        }
+    },
+    {
+        "booking_id": 42,
+        "customer": {
+            "name": "James Smith",
+            "email": "customer42@example.com"
+        },
+        "trip_details": {
+            "destination": "London",
+            "departure_date": "2025-05-18",
+            "return_date": "2025-05-26",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 3.2
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 1446.08
+        }
+    },
+    {
+        "booking_id": 43,
+        "customer": {
+            "name": "John Doe",
+            "email": "customer43@example.com"
+        },
+        "trip_details": {
+            "destination": "New York",
+            "departure_date": "2025-06-07",
+            "return_date": "2025-06-10",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 4.8
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 538.25
+        }
+    },
+    {
+        "booking_id": 44,
+        "customer": {
+            "name": "Robert Williams",
+            "email": "customer44@example.com"
+        },
+        "trip_details": {
+            "destination": "London",
+            "departure_date": "2025-10-03",
+            "return_date": "2025-10-09",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.7
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 2480.53
+        }
+    },
+    {
+        "booking_id": 45,
+        "customer": {
+            "name": "Sophia Jones",
+            "email": "customer45@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-09-02",
+            "return_date": "2025-09-12",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 4.8
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 2757.73
+        }
+    },
+    {
+        "booking_id": 46,
+        "customer": {
+            "name": "David Jones",
+            "email": "customer46@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-06-13",
+            "return_date": "2025-06-23",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 4.3
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 4782.38
+        }
+    },
+    {
+        "booking_id": 47,
+        "customer": {
+            "name": "James Jones",
+            "email": "customer47@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-07-28",
+            "return_date": "2025-07-28",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 3.5
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 1220.84
+        }
+    },
+    {
+        "booking_id": 48,
+        "customer": {
+            "name": "Michael Johnson",
+            "email": "customer48@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-09-09",
+            "return_date": "2025-09-12",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.2
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 2544.42
+        }
+    },
+    {
+        "booking_id": 49,
+        "customer": {
+            "name": "Michael Martinez",
+            "email": "customer49@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-07-26",
+            "return_date": "2025-07-28",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 3.5
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 727.42
+        }
+    },
+    {
+        "booking_id": 50,
+        "customer": {
+            "name": "James Jones",
+            "email": "customer50@example.com"
+        },
+        "trip_details": {
+            "destination": "Sydney",
+            "departure_date": "2025-02-04",
+            "return_date": "2025-02-12",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 3.2
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 2009.11
+        }
+    },
+    {
+        "booking_id": 51,
+        "customer": {
+            "name": "James Martinez",
+            "email": "customer51@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-06-23",
+            "return_date": "2025-06-24",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.0
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 4007.91
+        }
+    },
+    {
+        "booking_id": 52,
+        "customer": {
+            "name": "Robert Smith",
+            "email": "customer52@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-09-26",
+            "return_date": "2025-09-28",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 3.0
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 3405.76
+        }
+    },
+    {
+        "booking_id": 53,
+        "customer": {
+            "name": "David Jones",
+            "email": "customer53@example.com"
+        },
+        "trip_details": {
+            "destination": "Sydney",
+            "departure_date": "2025-05-01",
+            "return_date": "2025-05-08",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 3.4
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 4646.69
+        }
+    },
+    {
+        "booking_id": 54,
+        "customer": {
+            "name": "Emma Martinez",
+            "email": "customer54@example.com"
+        },
+        "trip_details": {
+            "destination": "New York",
+            "departure_date": "2025-02-16",
+            "return_date": "2025-02-24",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 4.3
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 4821.06
+        }
+    },
+    {
+        "booking_id": 55,
+        "customer": {
+            "name": "David Garcia",
+            "email": "customer55@example.com"
+        },
+        "trip_details": {
+            "destination": "Berlin",
+            "departure_date": "2025-05-23",
+            "return_date": "2025-05-27",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.7
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 3316.93
+        }
+    },
+    {
+        "booking_id": 56,
+        "customer": {
+            "name": "John Johnson",
+            "email": "customer56@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-12-24",
+            "return_date": "2025-12-32",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.8
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 4428.7
+        }
+    },
+    {
+        "booking_id": 57,
+        "customer": {
+            "name": "David Johnson",
+            "email": "customer57@example.com"
+        },
+        "trip_details": {
+            "destination": "Bangkok",
+            "departure_date": "2025-11-03",
+            "return_date": "2025-11-11",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 4.2
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 1140.14
+        }
+    },
+    {
+        "booking_id": 58,
+        "customer": {
+            "name": "Sophia Davis",
+            "email": "customer58@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-10-12",
+            "return_date": "2025-10-22",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.9
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 3220.61
+        }
+    },
+    {
+        "booking_id": 59,
+        "customer": {
+            "name": "John Davis",
+            "email": "customer59@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-02-14",
+            "return_date": "2025-02-19",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 4.2
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 709.01
+        }
+    },
+    {
+        "booking_id": 60,
+        "customer": {
+            "name": "David Davis",
+            "email": "customer60@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-11-15",
+            "return_date": "2025-11-21",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.5
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 2057.16
+        }
+    },
+    {
+        "booking_id": 61,
+        "customer": {
+            "name": "Isabella Doe",
+            "email": "customer61@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-04-25",
+            "return_date": "2025-04-28",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.0
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 4570.57
+        }
+    },
+    {
+        "booking_id": 62,
+        "customer": {
+            "name": "Isabella Smith",
+            "email": "customer62@example.com"
+        },
+        "trip_details": {
+            "destination": "Dubai",
+            "departure_date": "2025-04-28",
+            "return_date": "2025-04-28",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 3.2
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 1703.09
+        }
+    },
+    {
+        "booking_id": 63,
+        "customer": {
+            "name": "Alice Miller",
+            "email": "customer63@example.com"
+        },
+        "trip_details": {
+            "destination": "London",
+            "departure_date": "2025-12-20",
+            "return_date": "2025-12-28",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 4.5
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 1170.91
+        }
+    },
+    {
+        "booking_id": 64,
+        "customer": {
+            "name": "Isabella Martinez",
+            "email": "customer64@example.com"
+        },
+        "trip_details": {
+            "destination": "London",
+            "departure_date": "2025-07-23",
+            "return_date": "2025-07-26",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 3.8
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 3130.74
+        }
+    },
+    {
+        "booking_id": 65,
+        "customer": {
+            "name": "John Brown",
+            "email": "customer65@example.com"
+        },
+        "trip_details": {
+            "destination": "London",
+            "departure_date": "2025-04-25",
+            "return_date": "2025-04-28",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 3.9
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 2738.84
+        }
+    },
+    {
+        "booking_id": 66,
+        "customer": {
+            "name": "Alice Davis",
+            "email": "customer66@example.com"
+        },
+        "trip_details": {
+            "destination": "New York",
+            "departure_date": "2025-09-16",
+            "return_date": "2025-09-17",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 3.2
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 864.55
+        }
+    },
+    {
+        "booking_id": 67,
+        "customer": {
+            "name": "James Williams",
+            "email": "customer67@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-05-15",
+            "return_date": "2025-05-23",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 4.7
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 2345.79
+        }
+    },
+    {
+        "booking_id": 68,
+        "customer": {
+            "name": "Robert Miller",
+            "email": "customer68@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-01-19",
+            "return_date": "2025-01-27",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 3.8
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 739.69
+        }
+    },
+    {
+        "booking_id": 69,
+        "customer": {
+            "name": "Sophia Jones",
+            "email": "customer69@example.com"
+        },
+        "trip_details": {
+            "destination": "Sydney",
+            "departure_date": "2025-08-04",
+            "return_date": "2025-08-10",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 4.2
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 2521.22
+        }
+    },
+    {
+        "booking_id": 70,
+        "customer": {
+            "name": "Emma Jones",
+            "email": "customer70@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-12-03",
+            "return_date": "2025-12-07",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 3.2
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 2608.17
+        }
+    },
+    {
+        "booking_id": 71,
+        "customer": {
+            "name": "David Williams",
+            "email": "customer71@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-07-10",
+            "return_date": "2025-07-15",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 3.1
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 3378.67
+        }
+    },
+    {
+        "booking_id": 72,
+        "customer": {
+            "name": "Robert Jones",
+            "email": "customer72@example.com"
+        },
+        "trip_details": {
+            "destination": "Dubai",
+            "departure_date": "2025-01-15",
+            "return_date": "2025-01-20",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 4.4
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 4629.1
+        }
+    },
+    {
+        "booking_id": 73,
+        "customer": {
+            "name": "Sophia Martinez",
+            "email": "customer73@example.com"
+        },
+        "trip_details": {
+            "destination": "Berlin",
+            "departure_date": "2025-01-21",
+            "return_date": "2025-01-30",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 4.5
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 1951.39
+        }
+    },
+    {
+        "booking_id": 74,
+        "customer": {
+            "name": "Olivia Miller",
+            "email": "customer74@example.com"
+        },
+        "trip_details": {
+            "destination": "London",
+            "departure_date": "2025-05-28",
+            "return_date": "2025-05-28",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 4.7
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 1527.76
+        }
+    },
+    {
+        "booking_id": 75,
+        "customer": {
+            "name": "Robert Davis",
+            "email": "customer75@example.com"
+        },
+        "trip_details": {
+            "destination": "London",
+            "departure_date": "2025-10-24",
+            "return_date": "2025-10-34",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 3.5
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 1997.33
+        }
+    },
+    {
+        "booking_id": 76,
+        "customer": {
+            "name": "Olivia Davis",
+            "email": "customer76@example.com"
+        },
+        "trip_details": {
+            "destination": "Sydney",
+            "departure_date": "2025-10-14",
+            "return_date": "2025-10-21",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.6
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 1615.38
+        }
+    },
+    {
+        "booking_id": 77,
+        "customer": {
+            "name": "Emma Miller",
+            "email": "customer77@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-09-27",
+            "return_date": "2025-09-28",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.1
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 4286.38
+        }
+    },
+    {
+        "booking_id": 78,
+        "customer": {
+            "name": "Emma Brown",
+            "email": "customer78@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-06-07",
+            "return_date": "2025-06-12",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 4.8
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 2174.25
+        }
+    },
+    {
+        "booking_id": 79,
+        "customer": {
+            "name": "Emma Johnson",
+            "email": "customer79@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-05-10",
+            "return_date": "2025-05-15",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.7
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 863.48
+        }
+    },
+    {
+        "booking_id": 80,
+        "customer": {
+            "name": "Robert Johnson",
+            "email": "customer80@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-07-22",
+            "return_date": "2025-07-31",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 4.0
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 2899.61
+        }
+    },
+    {
+        "booking_id": 81,
+        "customer": {
+            "name": "Alice Smith",
+            "email": "customer81@example.com"
+        },
+        "trip_details": {
+            "destination": "New York",
+            "departure_date": "2025-06-01",
+            "return_date": "2025-06-04",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 3.2
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 549.66
+        }
+    },
+    {
+        "booking_id": 82,
+        "customer": {
+            "name": "John Brown",
+            "email": "customer82@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-07-28",
+            "return_date": "2025-07-28",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 3.1
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 3273.85
+        }
+    },
+    {
+        "booking_id": 83,
+        "customer": {
+            "name": "Sophia Garcia",
+            "email": "customer83@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-11-11",
+            "return_date": "2025-11-18",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 4.1
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 1539.01
+        }
+    },
+    {
+        "booking_id": 84,
+        "customer": {
+            "name": "John Williams",
+            "email": "customer84@example.com"
+        },
+        "trip_details": {
+            "destination": "Berlin",
+            "departure_date": "2025-04-11",
+            "return_date": "2025-04-20",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.5
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 1267.52
+        }
+    },
+    {
+        "booking_id": 85,
+        "customer": {
+            "name": "Sophia Brown",
+            "email": "customer85@example.com"
+        },
+        "trip_details": {
+            "destination": "Sydney",
+            "departure_date": "2025-11-26",
+            "return_date": "2025-11-28",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.2
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 1203.71
+        }
+    },
+    {
+        "booking_id": 86,
+        "customer": {
+            "name": "Olivia Davis",
+            "email": "customer86@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-10-13",
+            "return_date": "2025-10-16",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 4.1
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 4452.25
+        }
+    },
+    {
+        "booking_id": 87,
+        "customer": {
+            "name": "Sophia Doe",
+            "email": "customer87@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-05-17",
+            "return_date": "2025-05-20",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 3.3
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 1890.82
+        }
+    },
+    {
+        "booking_id": 88,
+        "customer": {
+            "name": "Olivia Williams",
+            "email": "customer88@example.com"
+        },
+        "trip_details": {
+            "destination": "Toronto",
+            "departure_date": "2025-06-01",
+            "return_date": "2025-06-11",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.6
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 1599.73
+        }
+    },
+    {
+        "booking_id": 89,
+        "customer": {
+            "name": "Sophia Garcia",
+            "email": "customer89@example.com"
+        },
+        "trip_details": {
+            "destination": "New York",
+            "departure_date": "2025-02-19",
+            "return_date": "2025-02-25",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 3.1
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 4444.28
+        }
+    },
+    {
+        "booking_id": 90,
+        "customer": {
+            "name": "James Miller",
+            "email": "customer90@example.com"
+        },
+        "trip_details": {
+            "destination": "Dubai",
+            "departure_date": "2025-04-06",
+            "return_date": "2025-04-14",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 4.3
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 2081.84
+        }
+    },
+    {
+        "booking_id": 91,
+        "customer": {
+            "name": "Isabella Miller",
+            "email": "customer91@example.com"
+        },
+        "trip_details": {
+            "destination": "Paris",
+            "departure_date": "2025-12-09",
+            "return_date": "2025-12-11",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 3.1
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 3526.56
+        }
+    },
+    {
+        "booking_id": 92,
+        "customer": {
+            "name": "Olivia Smith",
+            "email": "customer92@example.com"
+        },
+        "trip_details": {
+            "destination": "London",
+            "departure_date": "2025-07-09",
+            "return_date": "2025-07-10",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 4.1
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 618.27
+        }
+    },
+    {
+        "booking_id": 93,
+        "customer": {
+            "name": "Isabella Doe",
+            "email": "customer93@example.com"
+        },
+        "trip_details": {
+            "destination": "New York",
+            "departure_date": "2025-06-14",
+            "return_date": "2025-06-22",
+            "accommodation": {
+                "hotel_name": "The Royal Palace",
+                "rating": 4.8
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 2828.21
+        }
+    },
+    {
+        "booking_id": 94,
+        "customer": {
+            "name": "John Johnson",
+            "email": "customer94@example.com"
+        },
+        "trip_details": {
+            "destination": "Bangkok",
+            "departure_date": "2025-02-21",
+            "return_date": "2025-02-27",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 4.2
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 1071.51
+        }
+    },
+    {
+        "booking_id": 95,
+        "customer": {
+            "name": "David Garcia",
+            "email": "customer95@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-05-04",
+            "return_date": "2025-05-12",
+            "accommodation": {
+                "hotel_name": "Skyline Tower Hotel",
+                "rating": 3.7
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 538.29
+        }
+    },
+    {
+        "booking_id": 96,
+        "customer": {
+            "name": "James Jones",
+            "email": "customer96@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-06-04",
+            "return_date": "2025-06-09",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 3.3
+            }
+        },
+        "payment": {
+            "status": "Completed",
+            "amount": 998.12
+        }
+    },
+    {
+        "booking_id": 97,
+        "customer": {
+            "name": "David Jones",
+            "email": "customer97@example.com"
+        },
+        "trip_details": {
+            "destination": "London",
+            "departure_date": "2025-02-22",
+            "return_date": "2025-02-28",
+            "accommodation": {
+                "hotel_name": "Manhattan Suites",
+                "rating": 3.4
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 3406.03
+        }
+    },
+    {
+        "booking_id": 98,
+        "customer": {
+            "name": "Sophia Garcia",
+            "email": "customer98@example.com"
+        },
+        "trip_details": {
+            "destination": "Tokyo",
+            "departure_date": "2025-09-06",
+            "return_date": "2025-09-08",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 3.3
+            }
+        },
+        "payment": {
+            "status": "Failed",
+            "amount": 969.31
+        }
+    },
+    {
+        "booking_id": 99,
+        "customer": {
+            "name": "Alice Smith",
+            "email": "customer99@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-09-14",
+            "return_date": "2025-09-22",
+            "accommodation": {
+                "hotel_name": "Ocean View Resort",
+                "rating": 3.8
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 3401.72
+        }
+    },
+    {
+        "booking_id": 100,
+        "customer": {
+            "name": "Alice Johnson",
+            "email": "customer100@example.com"
+        },
+        "trip_details": {
+            "destination": "Rome",
+            "departure_date": "2025-08-25",
+            "return_date": "2025-08-28",
+            "accommodation": {
+                "hotel_name": "Grand Paris Hotel",
+                "rating": 4.2
+            }
+        },
+        "payment": {
+            "status": "Pending",
+            "amount": 2089.94
+        }
+    }
+]
