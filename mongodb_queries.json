@@ -1,0 +1,12 @@
+{
+    "2.1 Retrieve All Bookings": "db.bookings.find({})",
+    "2.2 Find All Bookings for a Specific Destination": "db.bookings.find({ \"trip_details.destination\": \"Paris\" })",
+    "2.3 Find All Customers Who Have Paid": "db.bookings.find({ \"payment.status\": \"Completed\" }, { \"customer.name\": 1, _id: 0 })",
+    "2.4 Find Bookings With Hotel Ratings Above 4": "db.bookings.find({ \"trip_details.accommodation.rating\": { $gt: 4 } })",
+    "2.5 Count Total Number of Bookings": "db.bookings.countDocuments({})",
+    "2.6 Retrieve Only Customer Names and Emails": "db.bookings.find({}, { \"customer.name\": 1, \"customer.email\": 1, _id: 0 })",
+    "2.7 Find Bookings With Pending Payments": "db.bookings.find({ \"payment.status\": \"Pending\" })",
+    "2.8 Update Payment Status for a Specific Booking": "db.bookings.updateOne({ \"booking_id\": 2 }, { $set: { \"payment.status\": \"Completed\" } })",
+    "2.9 Delete Bookings for a Specific Customer": "db.bookings.deleteOne({ \"customer.email\": \"john.doe@example.com\" })",
+    "2.10 Find Bookings Between Specific Dates": "db.bookings.find({ \"trip_details.departure_date\": { $gte: \"2025-06-01\", $lte: \"2025-07-01\" } })"
+}
